@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Modelo</title>
+  </head>
+
+  <body>
+    <section class="container">
+      <h1>Password Generator</h1>
+
+      <div class="senha-container">
+        <div class="senha-gerada">Select Options</div>
+        <div class="force-container"></div>
+      </div>
+      <div class="input-container">
+        Character number
+        <input
+          value="8"
+          type="number"
+          min="1"
+          max="50"
+          class="qtd-char"
+        /><br />
+        UpperCaseLetter
+        <input type="checkbox" class="chk-maiusculas" checked /><br />
+        LowerCaseLetter <input type="checkbox" class="chk-minusculas" /><br />
+        Number <input type="checkbox" class="chk-numeros" /><br />
+        Symbol <input type="checkbox" class="chk-simbolos" /><br />
+        <button class="gerar-senha">Generate</button>
+      </div>
+    </section>
+
+    <script src="./assets/js/bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap");
+:root {
+  --primary-color: rgb(30, 73, 149);
+  --primary-color-darker: rgb(16, 53, 118);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.senha-gerada {
+  font-size: 2em;
+  color: var(--primary-color);
+  margin: 10px 40px;
+}
+
+.force-container {
+  font-size: 1.2rem;
+}
+
+.red {
+  color: rgb(233, 77, 77);
+}
+
+.normal {
+  color: black;
+}
+
+.green {
+  color: rgb(99, 201, 99);
+}
+
+.senha-container {
+  margin: 20px;
+}
+
+.input-container {
+  width: 340px;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  float: right;
+}
+
+button {
+  display: block;
+  margin: 40px 0;
+  font-size: 1em;
+  color: #fff;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 7px;
+}
